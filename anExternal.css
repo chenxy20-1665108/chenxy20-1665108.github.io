@@ -1,0 +1,49 @@
+.small {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+h1 {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial;
+    font-size: 22pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#p1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#p2 {
+	border-style: dotted;
+	font-style: oblique;
+	color: gray;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#last {
+	border-radius: 25px;
+	margin: 20px;
+	/*float: right;*/
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: white;
+	font-family: "Arial Black", Gadget, sans-serif; 
+}
